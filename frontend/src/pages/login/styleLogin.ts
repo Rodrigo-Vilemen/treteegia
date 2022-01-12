@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   min-height: calc(100vh - (72px * 2));
@@ -6,10 +6,18 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
+`;
+
+export const Main = styled.div`
+  width: 100%;
+  min-height: calc(100vh - 144px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const ContentLogin = styled.div`
-  background: #052;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -68,7 +76,7 @@ export const InputContainer = styled.div`
   justify-content: center;
   label {
     width: 100%;
-    margin: 5px
+    margin: 5px;
   }
 
   input {
@@ -128,5 +136,4 @@ export const Content = styled.div`
     background: #ffffff;
     outline: none;
   }
-  
 `;

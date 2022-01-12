@@ -47,7 +47,7 @@ function Login() {
           </p>
         </div>
 
-        <div>
+        <div style={{ justifyContent: "center" }}>
           {/* <img style={}src="../../../public/images/strateegiaAmarelo.png" alt="strateegia"/> */}
           <p>Crie Sua Jornada no strateegia</p>
         </div>
